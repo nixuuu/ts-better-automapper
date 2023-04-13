@@ -1,0 +1,31 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node -C ttypescript src/test.ts",
+    "build": "ttsc -b tsconfig.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.14.191",
+    "@types/node": "^18.15.3",
+    "class-transformer": "^0.5.1",
+    "nodemon": "^2.0.21",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.5.0",
+    "ttypescript": "^1.5.15",
+    "typescript": "4.9"
+  },
+  "dependencies": {
+    "@automapper/classes": "^8.7.7",
+    "@automapper/core": "^8.7.7",
+    "lodash": "^4.17.21",
+    "reflect-metadata": "^0.1.13",
+    "typescript-rtti": "^0.8.3"
+  }
+}
